@@ -103,7 +103,7 @@ Vue.component('post-comment', {
 })
 
 let myMedia = new Vue({ 
-    el: '#testMediaPost',
+    el: '#mediaPosts',
     data: function () {
         return {
             totalLoaded: 0,
