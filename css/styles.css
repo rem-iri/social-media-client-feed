@@ -147,7 +147,7 @@ nav {
 }
 @media only screen and (min-width: 280px) and (max-width: 479px), only screen and (min-width: 480px) and (max-width: 767px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .post-container {
         width: 100%;
