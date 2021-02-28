@@ -1,6 +1,3 @@
-# social-media-placeholder
-[Sample Vue.js/REST API/Responsive Web Design project] - Social media home layout
+# Social Media Placeholder
 
-** 
-- Ommited Picture-to-Post relationship since it does not show any in the API, hence it appears random every time (however, data relationship is still demonstrated through Post-User-Comment)
-- Registered components globally (project scope unclear)
+Tecnologies used: HTML, CSS, Javascript, and Vue.js
