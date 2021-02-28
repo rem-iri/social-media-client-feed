@@ -1,3 +1,3 @@
 # Social Media Placeholder
 
-Tecnologies used: HTML, CSS, Javascript, and Vue.js
+Technologies used: HTML, CSS, Javascript, and Vue.js
