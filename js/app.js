@@ -33,13 +33,13 @@ Vue.component('media-post', {
             thisObj.userPicThumb = res[0].thumbnailUrl + '.png';
         });
 
-        fetch('https://jsonplaceholder.typicode.com/photos?id=' + Math.ceil(Math.random() * 5000), function (res) {
+        fetch('https://picsum.photos/600/600', function (res) {
             return res;
         })
-        .then(function (res) { return res.json(); })
+        .then(function (res) { return res; })
         .then(function (res) { 
             console.log(thisObj)
-            thisObj.postPic = res[0].url + '.png';
+            thisObj.postPic = res.url;
         });
 
         fetch('https://jsonplaceholder.typicode.com/comments?postId=' + this.postId, function (res) {
